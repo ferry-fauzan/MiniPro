@@ -1,7 +1,7 @@
 let a = prompt("Masukkan Nama Hari ini: ")
 
 switch (a) {
-    case "senin":
+    case "Senin":
         document.write("Menu Nasi Goreng");
         break;
     case "Selasa":
