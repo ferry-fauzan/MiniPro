@@ -1,0 +1,24 @@
+.btn-primary {
+    background: rgb(144, 209, 84);
+    border: rgb(98, 155, 46);
+    padding: 10px 15px;
+}
+
+.btn-primary:hover {
+    background: rgb(96, 168, 32);
+    border: rgb(84, 141, 27);
+}
+
+.awal h1 {
+    font-family: 'Oswald';
+}
+
+.awal p {
+    font-family: 'inter';
+    font-weight: 400;
+}
+
+.nav-item {
+    font-family: 'oswald';
+    background-color: rgb(50, 80, 61);
+}
