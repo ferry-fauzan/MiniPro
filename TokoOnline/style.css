@@ -20,5 +20,9 @@
 
 .nav-item {
     font-family: 'oswald';
-    background-color: rgb(50, 80, 61);
+    background-color: none;
+}
+
+.nav-item:hover {
+    outline-color: rgb(76, 219, 95);
 }
