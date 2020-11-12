@@ -45,6 +45,8 @@
       </v-btn>
          <v-btn
         text
+        link
+        to="/about"
       >
         <span class="mr-2">Contact Us</span>
         <!-- <v-icon>mdi-open-in-new</v-icon> -->
@@ -118,8 +120,8 @@ export default {
         'Contact Us',
       ],
   }),
-  mounted(){
-    this.$router.push({name: "Apa"})
-  }
+  // mounted(){
+  //   this.$router.push({name: "Apa"})
+  // }
 };
 </script>

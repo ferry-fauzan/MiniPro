@@ -2,7 +2,7 @@
   <v-app>
     <v-app-bar
       app
-      color="#FFFFFF"
+      color="#F5f5f5"
      
     >
       <div class="d-flex align-center">
@@ -24,29 +24,32 @@
           width="100"
         /> -->
         <v-img 
-        src="@/assets/logos.png"
-        width="150"
+        src="@/assets/fl.png"
+        width="80"
+        class="mb-2"
         />
       </div>
 
       <v-spacer></v-spacer>
 
       <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
+        to="/"
+        
         text
       >
         <span class="mr-2">Home</span>
         <!-- <v-icon>mdi-open-in-new</v-icon> -->
       </v-btn>
+
        <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
+
         text
+        to="/about"
       >
         <span class="mr-2">Product</span>
         <!-- <v-icon>mdi-open-in-new</v-icon> -->
       </v-btn>
+
 
         <v-btn
         href="https://github.com/vuetifyjs/vuetify/releases/latest"
@@ -61,7 +64,8 @@
 
     <v-main>
       <!-- <HelloWorld/> -->
-      <Home/>
+      <!-- <Home/> -->
+      <router-view></router-view>
     </v-main>
 
    <template>
@@ -101,14 +105,14 @@
 
 <script>
 // import HelloWorld from './components/HelloWorld';
-import Home from './views/Home';
+// import Home from './views/Home';
 
 export default {
   name: 'App',
 
   components: {
     // HelloWorld,
-    Home
+    // Home
   },
 
   data: () => ({
